@@ -2,15 +2,15 @@ import java.util.Scanner;
 public class PemilihanPercobaan218 {
     public static void main(String[] args) {
 
-        Scanner input00 = new Scanner(System.in);
+        Scanner input18 = new Scanner(System.in);
         System.out.println("Nilai uas   : ");
-        float uas = input00.nextFloat();
+        float uas = input18.nextFloat();
         System.out.println("Nilai uts   : ");
-        float uts = input00.nextFloat();
+        float uts = input18.nextFloat();
         System.out.println("Nilai kuis  : ");
-        float kuis = input00.nextFloat();
+        float kuis = input18.nextFloat();
         System.out.println("Nilai tugas : ");
-        float tugas = input00.nextFloat();
+        float tugas = input18.nextFloat();
 
         float total = (uas * 0.4F) + (uts * 0.3F) + (kuis * 0.1F) + (tugas * 0.2F);
         String message = total < 65 ? "Remidi" : "Tidak remidi";
